@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.justwen.ime.view.keyboard.key.CharacterKeyView
+        android:id="@+id/key_a"
+        android:layout_width="@dimen/keyboard_qwerty_key_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="24dp"
+        android:gravity="center"
+        android:textColor="#ff616161"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+    <com.justwen.ime.view.keyboard.key.CharacterKeyView
+        android:id="@+id/key_s"
+        android:layout_width="@dimen/keyboard_qwerty_key_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/keyboard_qwerty_ver_gap"
+        android:gravity="center"
+        android:textColor="#ff616161"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+    <com.justwen.ime.view.keyboard.key.CharacterKeyView
+        android:id="@+id/key_d"
+        android:layout_width="@dimen/keyboard_qwerty_key_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/keyboard_qwerty_ver_gap"
+        android:gravity="center"
+        android:textColor="#ff616161"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+    <com.justwen.ime.view.keyboard.key.CharacterKeyView
+        android:id="@+id/key_f"
+        android:layout_width="@dimen/keyboard_qwerty_key_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/keyboard_qwerty_ver_gap"
+        android:gravity="center"
+        android:textColor="#ff616161"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+    <com.justwen.ime.view.keyboard.key.CharacterKeyView
+        android:id="@+id/key_g"
+        android:layout_width="@dimen/keyboard_qwerty_key_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/keyboard_qwerty_ver_gap"
+        android:gravity="center"
+        android:textColor="#ff616161"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+    <com.justwen.ime.view.keyboard.key.CharacterKeyView
+        android:id="@+id/key_h"
+        android:layout_width="@dimen/keyboard_qwerty_key_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/keyboard_qwerty_ver_gap"
+        android:gravity="center"
+        android:textColor="#ff616161"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+    <com.justwen.ime.view.keyboard.key.CharacterKeyView
+        android:id="@+id/key_j"
+        android:layout_width="@dimen/keyboard_qwerty_key_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/keyboard_qwerty_ver_gap"
+        android:gravity="center"
+        android:textColor="#ff616161"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+    <com.justwen.ime.view.keyboard.key.CharacterKeyView
+        android:id="@+id/key_k"
+        android:layout_width="@dimen/keyboard_qwerty_key_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/keyboard_qwerty_ver_gap"
+        android:gravity="center"
+        android:textColor="#ff616161"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+    <com.justwen.ime.view.keyboard.key.CharacterKeyView
+        android:id="@+id/key_l"
+        android:layout_width="@dimen/keyboard_qwerty_key_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/keyboard_qwerty_ver_gap"
+        android:gravity="center"
+        android:textColor="#ff616161"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+</merge>

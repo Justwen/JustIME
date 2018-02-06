@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.justwen.ime.view.keyboard.key.func.RangeSymbolKeyView
+        android:id="@+id/key_symbol"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+    <com.justwen.ime.view.keyboard.key.func.RangeNumberKeyView
+        android:id="@+id/key_number"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/keyboard_qwerty_ver_gap"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+    <com.justwen.ime.view.keyboard.key.SymbolKeyView
+        android:id="@+id/key_comma"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/keyboard_qwerty_ver_gap"
+        android:gravity="center"
+        app:keyLabel=","
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+    <com.justwen.ime.view.keyboard.key.func.SpaceKeyView
+        android:id="@+id/key_space"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/keyboard_qwerty_ver_gap"
+        android:gravity="center"
+        android:textColor="#ff616161"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+    <com.justwen.ime.view.keyboard.key.SymbolKeyView
+        android:id="@+id/key_dot"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/keyboard_qwerty_ver_gap"
+        android:gravity="center"
+
+        app:keyLabel="."
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+    <com.justwen.ime.view.keyboard.key.func.LanguageKeyView
+        android:id="@+id/key_lang"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/keyboard_qwerty_ver_gap"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+    <com.justwen.ime.view.keyboard.key.func.EnterKeyView
+        android:id="@+id/key_enter"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/keyboard_qwerty_ver_gap"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/keyboard_qwerty_label_size"/>
+
+</merge>
